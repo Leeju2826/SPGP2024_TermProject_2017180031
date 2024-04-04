@@ -1,4 +1,4 @@
-![Char1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/assets/44462330/cdb4155d-8db9-4cb7-84cd-5c1e23e941d4)# 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
+2024년도 1학기 스마트폰게임프로그래밍 프로젝트
 
 ## 게임 컨셉
 ### High Concept
@@ -16,7 +16,7 @@
 - 아군: 5가지
 ![아군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/Char1.png)
 - 적군: 4가지 (일반 적군 3 가지, 보스 1 가지)
-![적군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/Char2.png)
+![적군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/char2.png)
 ### 강화
 - 아군 강화(체력 및 공격력 강화), 기지 강화(체력, 자원 획득량 강화)
 
