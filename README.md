@@ -21,11 +21,11 @@
 
 ## 예상 게임 실행 흐름
 1. 자원으로 아군을 소환한다.
-![흐름도1]https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/1.png
+![흐름도1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/1.png)
 2. 몰려오는 적과 싸움을 한다.
-![흐름도2]https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/2.png
+![흐름도2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/2.png)
 3. 적 기지에 도달하여 체력이 0으로 만들면 clear 한다.
-![흐름도3]https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/3.png
+![흐름도3](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/3.png)
 
 
 ## 개발 일정
