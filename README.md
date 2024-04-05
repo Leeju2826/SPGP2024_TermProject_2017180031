@@ -1,5 +1,6 @@
 # 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
-![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/GameImage.png)
+## 게임 제목 : 냥코 대전쟁
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameImage.png)
 
 ## 게임 컨셉
 ### High Concept
@@ -15,7 +16,8 @@
 - 총 4 스테이지 (일반 스테이지: 3개, 보스 스테이지: 1개)
 ### 캐릭터
 - 아군: 5가지
-![아군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/Char1.png)
+- 1. 고양이 ![아군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_1_Profile)
+- 공격력(최대): 20(55), 체력:250(500), 가격: 50
 - 적군: 4가지 (일반 적군 3 가지, 보스 1 가지)
 ![적군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/char2.png)
 ### 강화
