@@ -1,4 +1,4 @@
-![cy_move1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/assets/44462330/9498a0b0-4848-4420-b360-e0a3171152c5)# 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
+# 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
 ## 게임 제목 : 냥코 대전쟁
 ![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameImage.png)
 
@@ -14,8 +14,16 @@
 ## 개발 범위
 ### 스테이지
 - 총 4 스테이지 (일반 스테이지: 3개, 보스 스테이지: 1개)
+
 ### 캐릭터
-아군 (5가지)
+캐릭터들은 공통적으로 공격력, 체력, 공격 범위, 공격 속도를 가지고 있으며, 아군 캐릭터들은 추가로 가격, 레벨을 가진다.
+- 공격력: 상대방에게 공격을 통해 줄 수 있는 데미지이다.
+- 체력: 정해진 수치를 가지고 있으며 체력이 0이하로 내려가면 사망하게 된다.
+- 공격 범위: 상대방에게 공격할 때의 범위를 나타낸다.
+- 공격 속도: 공격할 때 걸리는 속도이며, 1 ~ 5 사이를 가지고 있으며 숫자가 높을수록 빠르게 공격한다.
+- 가격: 아군 캐릭터에게만 존재하는 것으로, 소환할 때 필요한 자원량이다.
+- 레벨: 아군 캐릭터에게만 존재하는 것으로, 기본적으로 1레벨을 시작으로 경험치를 통해 최대 10레벨까지 성장할 수 있다.
+#### 아군(5가지)
 1. 고양이 ![아군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_1_Profile.png)
 - 공격력(최대): 20(55), 체력: 250(500), 가격: 50
 2. 탱크 고양이 ![아군2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_2_Profile.png)
@@ -26,8 +34,8 @@
 - 공격력(최대): 70(196), 체력: 1500(4200), 가격: 500
 5. 거신 고양이 ![아군5](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_5_Profile.png)
 - 공격력(최대): 700(1960), 체력: 2500(7000), 가격: 2000
-
-- 적군: 4가지 (일반 적군 3 가지, 보스 1 가지)
+#### 적군(4가지)
+적군 캐릭터들은 스테이지동안 랜덤 시간대에 등장한다.
 1. 멍뭉이 ![적군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_1_Profile.png)
 - 공격력: 8, 체력: 90, 공격 범위: 단일, 공격 속도: 4
 2. 낼름이 ![적군2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_2_Profile.png)
@@ -43,11 +51,11 @@
 
 ## 예상 게임 실행 흐름
 1. 자원으로 아군을 소환한다.
-![흐름도1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/1.png)
+![흐름도1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameFlowChart_1.png)
 2. 몰려오는 적과 싸움을 한다.
-![흐름도2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/2.png)
+![흐름도2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameFlowChart_2.png)
 3. 적 기지에 도달하여 체력이 0으로 만들면 clear 한다.
-![흐름도3](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/3.png)
+![흐름도3](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameFlowChart_3.png)
 
 
 ## 개발 일정
