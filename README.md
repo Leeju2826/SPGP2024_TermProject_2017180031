@@ -1,4 +1,4 @@
-# 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
+![cy_move1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/assets/44462330/9498a0b0-4848-4420-b360-e0a3171152c5)# 2024년도 1학기 스마트폰게임프로그래밍 프로젝트
 ## 게임 제목 : 냥코 대전쟁
 ![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/gameImage.png)
 
@@ -15,11 +15,28 @@
 ### 스테이지
 - 총 4 스테이지 (일반 스테이지: 3개, 보스 스테이지: 1개)
 ### 캐릭터
-- 아군: 5가지
-- 1. 고양이 ![아군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_1_Profile)
-- 공격력(최대): 20(55), 체력:250(500), 가격: 50
+아군 (5가지)
+1. 고양이 ![아군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_1_Profile.png)
+- 공격력(최대): 20(55), 체력: 250(500), 가격: 50
+2. 탱크 고양이 ![아군2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_2_Profile.png)
+- 공격력(최대): 5(15), 체력: 1000(2800), 가격: 150
+3. 배틀 고양이 ![아군3](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_3_Profile.png)
+- 공격력(최대): 62(175), 체력: 500(1400), 가격: 300
+4. 고양이 새 ![아군4](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_4_Profile.png)
+- 공격력(최대): 70(196), 체력: 1500(4200), 가격: 500
+5. 거신 고양이 ![아군5](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Team_5_Profile.png)
+- 공격력(최대): 700(1960), 체력: 2500(7000), 가격: 2000
+
 - 적군: 4가지 (일반 적군 3 가지, 보스 1 가지)
-![적군](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/FlowChart/char2.png)
+1. 멍뭉이 ![적군1](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_1_Profile.png)
+- 공격력: 8, 체력: 90, 공격 범위: 단일, 공격 속도: 4
+2. 낼름이 ![적군2](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_2_Profile.png)
+- 공격력: 15, 체력: 100, 공격 범위: 단일, 공격 속도: 3
+3. 곰선생 ![적군3](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_3_Profile.png)
+- 공격력: 400, 체력: 3000, 공격 범위: 단일, 공격 속도: 2
+4. 사이클론(보스) ![적군4](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/1stChart/character_Enemy_4_Profile.png)
+- 공격력: 2000, 체력: 30000, 공격 범위: 단일, 공격 속도: 1
+
 ### 강화
 - 아군 강화(체력 및 공격력 강화), 기지 강화(기지 최대 체력, 자원 획득량, 최대 자원 강화)
 
