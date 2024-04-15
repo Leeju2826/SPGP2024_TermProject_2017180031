@@ -6,6 +6,10 @@ android {
     namespace = "com.example.a2024project"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.a2024project"
         minSdk = 24
