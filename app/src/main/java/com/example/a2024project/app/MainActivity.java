@@ -1,9 +1,11 @@
-package com.example.a2024project;
+package com.example.a2024project.app;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.view.WindowManager;
 
 import com.example.a2024project.databinding.ActivityMainBinding;
 
@@ -19,5 +21,13 @@ import com.example.a2024project.databinding.ActivityMainBinding;
                  WindowManager.LayoutParams.FLAG_FULLSCREEN);
          binding = ActivityMainBinding.inflate(getLayoutInflater());
          setContentView(binding.getRoot());
+     }
+
+     @Override
+     public boolean onTouchEvent(MotionEvent event){
+         if(event.getAction() == MotionEvent.ACTION_DOWN) {
+             startActivity(new Intent(this, MainMenu.class));
+         }
+         return false;
      }
  }

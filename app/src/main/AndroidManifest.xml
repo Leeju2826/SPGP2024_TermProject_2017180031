@@ -13,10 +13,13 @@
         android:theme="@style/Theme._2024Project"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".app.MainMenu"
+            android:exported="false" />
+        <activity
+            android:name=".app.MainActivity"
+            android:exported="true"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:exported="true">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
