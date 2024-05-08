@@ -15,6 +15,6 @@ public class GameStage1 extends GameActivity {
         Metrics.setGameSize(16, 9);
         super.onCreate(savedInstanceState);
 
-        new Scene().push();
+        new MainScene().push();
     }
 }

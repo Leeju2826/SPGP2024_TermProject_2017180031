@@ -6,13 +6,15 @@ import com.example.a2024project.framework.scene.Scene;
 
 public class MainScene extends Scene {
     public enum Layer{
-        bg, COUNT
+        bg, player, COUNT
     }
 
     public MainScene(){
         initLayers(Layer.COUNT);
 
         add(Layer.bg, new HorzScrollBackground(R.mipmap.bg_stage1));
+
+        add(Layer.player, new Player());
     }
 
    // @Override
