@@ -14,7 +14,7 @@ public class HorzScrollBackground extends Sprite {
 
     @Override
     public void update(float elapsedSeconds){
-        this.x += elapsedSeconds;
+        //this.x += elapsedSeconds;
     }
 
     @Override
