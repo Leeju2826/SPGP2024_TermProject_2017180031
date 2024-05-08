@@ -8,7 +8,7 @@ public class Player extends Sprite {
     private static final int[] resIds = {
             R.mipmap.cat1_move1,
             R.mipmap.cat1_move2,
-            R.mipmap.cat1_move3
+            R.mipmap.cat1_move3,
     };
 
 
@@ -16,6 +16,7 @@ public class Player extends Sprite {
         super(resIds[0]);
         setPosition(12.0f, 6.0f, 2.0f, 2.0f);
         //dx = SPEED;
+
 
     }
 
