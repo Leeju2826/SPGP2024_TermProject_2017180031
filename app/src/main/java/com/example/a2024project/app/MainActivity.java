@@ -2,32 +2,30 @@ package com.example.a2024project.app;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.MotionEvent;
-import android.view.WindowManager;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.a2024project.BuildConfig;
+import com.example.a2024project.R;
 import com.example.a2024project.databinding.ActivityMainBinding;
 
- public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
      private ActivityMainBinding binding;
 
      @Override
      protected void onCreate(Bundle savedInstanceState) {
          super.onCreate(savedInstanceState);
-         getWindow().setFlags(
-                 WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-         binding = ActivityMainBinding.inflate(getLayoutInflater());
-         setContentView(binding.getRoot());
+         setContentView(R.layout.activity_main);
+
+         if(BuildConfig.DEBUG){
+             startActivity(new Intent(this, GameStage1.class));
+         }
+
      }
 
-     @Override
-     public boolean onTouchEvent(MotionEvent event){
-         if(event.getAction() == MotionEvent.ACTION_DOWN) {
-             startActivity(new Intent(this, MainMenu.class));
-         }
-         return false;
+     public void onBtnStartGame(View view) {
+         startActivity(new Intent(this, GameStage1.class));
      }
  }
