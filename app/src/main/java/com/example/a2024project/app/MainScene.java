@@ -13,9 +13,15 @@ public class MainScene extends Scene {
         initLayers(Layer.COUNT);
 
         add(Layer.bg, new HorzScrollBackground(R.mipmap.bg_stage1));
-
         add(Layer.player, new Player());
+
     }
+
+   //@Override
+   //public void update(float elapsedSeconds){
+   //    super.update(elapsedSeconds);
+   //    add(new Player());
+   //}
 
    // @Override
    // public boolean onTouch(MotionEvent event){
