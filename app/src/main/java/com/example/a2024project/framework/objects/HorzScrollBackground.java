@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import com.example.a2024project.framework.view.Metrics;
 
 public class HorzScrollBackground extends Sprite {
+    private final float width;
     public HorzScrollBackground(int bitmapResId){
         super(bitmapResId);
         this.width = bitmap.getWidth() * Metrics.height / bitmap.getHeight();
@@ -25,7 +26,7 @@ public class HorzScrollBackground extends Sprite {
         while (curr < Metrics.width){
             dstRect.set(curr, 0, curr + width, Metrics.height);
             canvas.drawBitmap(bitmap, null, dstRect, null);
+            curr += width;
         }
-        curr += width;
     }
 }
