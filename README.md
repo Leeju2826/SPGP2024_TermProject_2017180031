@@ -72,5 +72,35 @@
 - 8주차: 보스 Stage 구현
 - 9주차: 디버깅 및 최종 발표
 
-## 1차 발표
+
+## 1차 발표 영상 링크
 <https://www.youtube.com/watch?v=pusTQJGbj6g>
+
+
+# Term Project 2차 발표
+## 게임에 대한 간단한 소개
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/gameImage.png)
+
+플레이어는 자원을 사용하여 자신의 기지에서 캐릭터들을 소환하고, 반대편에서 몰려오는 적군들을 쓰러트리고 적 기지를 격파하여 승리한다.
+## 현재까지의 진행 상황
+- 1주차: 리소스 수집 및 스테이지 UI 배치 (40%)
+- 2주차: 캐릭터 이동, 공격, 사망 애니메이션 구현 (5%)
+- 3주차: 자원 획득 및 자원 획득량 강화 구현 (0%)
+- 4주차: 1 Stage 구현 및 클리어 OR Game over 구현 (0%)
+- 5주차: 2차 발표
+
+## 주별 Commit 수
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/github-insights-commits.png)
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/github-commits.png)
+
+## MainScene에 등장하는 Game Objects
+- bg: 배경 담당하는 object
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/object_bg.png)
+- castle: 아군 기지를 담당하는 object
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/object_castle.png)
+- player: 아군을 담당하는 object
+![이미지](https://github.com/Leeju2826/SPGP2024_TermProject_2017180031/blob/main/2ndChart/object_player.png)
+
+현재까지는 그리기 까지만 구현되어 있음
+
+## 2차 발표 영상 링크
