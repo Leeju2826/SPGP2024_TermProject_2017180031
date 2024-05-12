@@ -7,7 +7,7 @@ import com.example.a2024project.framework.activity.GameActivity;
 import com.example.a2024project.framework.scene.Scene;
 import com.example.a2024project.framework.view.Metrics;
 
-public class GameStage1 extends GameActivity {
+public class ProjectActivity extends GameActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +15,6 @@ public class GameStage1 extends GameActivity {
         Metrics.setGameSize(16, 9);
         super.onCreate(savedInstanceState);
 
-        new MainScene().push();
+        new Stage1().push();
     }
 }

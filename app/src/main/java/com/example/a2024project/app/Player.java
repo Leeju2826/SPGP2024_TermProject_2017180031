@@ -5,18 +5,11 @@ import com.example.a2024project.framework.objects.Sprite;
 
 public class Player extends Sprite {
     private static final float SPEED = -1.0f;
-    private static final int[] resIds = {
-            R.mipmap.cat1_move1,
-            R.mipmap.cat1_move2,
-            R.mipmap.cat1_move3,
-    };
-
 
     public Player(){
-        super(resIds[0]);
+        super(R.mipmap.cat1_move1);
         setPosition(12.0f, 6.0f, 2.0f, 2.0f);
         //dx = SPEED;
-
 
     }
 

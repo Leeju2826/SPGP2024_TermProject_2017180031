@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity {
          setContentView(R.layout.activity_main);
 
          if(BuildConfig.DEBUG){
-             startActivity(new Intent(this, GameStage1.class));
+             startActivity(new Intent(this, ProjectActivity.class));
          }
 
      }
 
      public void onBtnStartGame(View view) {
-         startActivity(new Intent(this, GameStage1.class));
+         startActivity(new Intent(this, ProjectActivity.class));
      }
  }
